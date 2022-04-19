@@ -21,7 +21,7 @@ public class Integer01 {
          */
         //自动装箱: int<-->Integer
         int n2=200;
-        Integer integer2=n2;//底层使用的还是 Integer.valueOf(n2)
+        Integer integer2=n2;//底层使用的还是 Integer integer2=Integer.valueOf(n2)
 
         //自动装箱: Integer-->int
         int n3=integer2;//底层仍然用的是 intValue（）方法
